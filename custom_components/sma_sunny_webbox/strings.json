@@ -12,7 +12,7 @@
       },
       "device": {
         "title": "Device Configuration",
-        "description": "Enter the device key for your inverter (found in WebBox URL)",
+        "description": "Enter the device key for your inverter (found in WebBox URL when viewing device details)",
         "data": {
           "device_key": "Device Key"
         }

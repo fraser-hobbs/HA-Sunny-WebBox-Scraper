@@ -1,0 +1,29 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to SMA Sunny WebBox",
+        "description": "Enter your WebBox connection details",
+        "data": {
+          "host": "IP Address",
+          "user_level": "User Level",
+          "password": "Password"
+        }
+      },
+      "device": {
+        "title": "Device Configuration",
+        "description": "Enter the device key for your inverter (found in WebBox URL when viewing device details)",
+        "data": {
+          "device_key": "Device Key"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to WebBox. Check IP address and credentials.",
+      "unknown": "Unexpected error occurred"
+    },
+    "abort": {
+      "already_configured": "This WebBox is already configured"
+    }
+  }
+}

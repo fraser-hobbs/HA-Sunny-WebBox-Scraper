@@ -48,14 +48,14 @@ SENSOR_TYPES = {
         "name": "Total Energy",
         "unit": "kWh",
         "device_class": "energy",
-        "state_class": "total_increasing",  # Required for Energy Dashboard
+        "state_class": "total_increasing",
         "icon": "mdi:lightning-bolt-circle",
     },
     "daily_energy": {
         "name": "Daily Energy",
         "unit": "kWh",
         "device_class": "energy",
-        "state_class": "total_increasing",  # Required for Energy Dashboard
+        "state_class": "total_increasing",
         "icon": "mdi:solar-power-variant",
     },
 }
