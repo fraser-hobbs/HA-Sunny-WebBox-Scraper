@@ -1,0 +1,11 @@
+{
+  "domain": "sma_sunny_webbox",
+  "name": "SMA Sunny WebBox",
+  "codeowners": ["@fraser-hobbs"],
+  "config_flow": true,
+  "documentation": "https://github.com/fraser-hobbs/HA-Sunny-WebBox-Scraper",
+  "issue_tracker": "https://github.com/fraser-hobbs/HA-Sunny-WebBox-Scraper/issues",
+  "requirements": ["requests>=2.31.0"],
+  "version": "1.0.0",
+  "iot_class": "local_polling"
+}
