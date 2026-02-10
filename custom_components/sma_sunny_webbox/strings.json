@@ -12,9 +12,13 @@
       },
       "device": {
         "title": "Device Configuration",
-        "description": "Enter the device key for your inverter (found in WebBox URL when viewing device details)",
+        "description": "Enter the device key and update interval",
         "data": {
-          "device_key": "Device Key"
+          "device_key": "Device Key (found in WebBox URL)",
+          "scan_interval": "Update Interval (seconds)"
+        },
+        "data_description": {
+          "scan_interval": "How often to fetch data from WebBox (10-3600 seconds)"
         }
       }
     },
@@ -24,6 +28,20 @@
     },
     "abort": {
       "already_configured": "This WebBox is already configured"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "SMA Sunny WebBox Options",
+        "description": "Configure update interval",
+        "data": {
+          "scan_interval": "Update Interval (seconds)"
+        },
+        "data_description": {
+          "scan_interval": "How often to fetch data from WebBox (10-3600 seconds)"
+        }
+      }
     }
   }
 }

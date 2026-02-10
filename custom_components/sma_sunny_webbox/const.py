@@ -6,8 +6,12 @@ CONF_HOST = "host"
 CONF_PASSWORD = "password"
 CONF_USER_LEVEL = "user_level"
 CONF_DEVICE_KEY = "device_key"
+CONF_SCAN_INTERVAL = "scan_interval"
 
-DEFAULT_SCAN_INTERVAL = timedelta(seconds=60)
+# Default values
+DEFAULT_SCAN_INTERVAL = 60  # seconds
+MIN_SCAN_INTERVAL = 10  # seconds
+MAX_SCAN_INTERVAL = 3600  # 1 hour
 
 USER_LEVELS = {
     "user": "User",
